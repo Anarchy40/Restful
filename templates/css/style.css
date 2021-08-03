@@ -1,1 +1,52 @@
-ty
+
+
+#navbar {
+    
+    /*display: inline-block;*/
+    margin: 10px;
+    padding: 8px;
+    border: solid 1px greenyellow
+
+
+}
+
+ul{
+
+    padding: 10px;
+    float: right;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    border: solid .5px greenyellow ;
+    background-color: rgb(97, 94, 94);
+
+}
+
+li :hover{
+
+    background-color: yellow;
+    animation: ;
+
+
+}
+
+#form-group{
+
+    justify-content: center;
+    margin: 5px;
+    padding: 8px;
+    border: solid 1px black;
+    width: fit-content;
+    height: max-content;
+    
+
+}
+
+.input :focus{
+    border-radius: 30px;
+    margin: 5px;
+
+}
